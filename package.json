@@ -1,9 +1,9 @@
 {
-  "name": "main-project-1",
+  "name": "scatch_project",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "app"
   },
   "keywords": [],
   "author": "",
