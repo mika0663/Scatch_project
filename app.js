@@ -3,7 +3,7 @@ const app = express();
 
 const cookieParser = require('cookie-parser');
 const path = require('path');
-const db = require("./configs/mongoose-connection");
+const db = require("./config/mongoose-connection");
 const ownersRouter = require('./routes/ownersRouter');
 const productsRouter = require('./routes/productRouter');
 const usersRouter = require('./routes/usersRouter');
@@ -21,7 +21,5 @@ app.use("/products",productsRouter);
 
 
 
-const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(3000);
