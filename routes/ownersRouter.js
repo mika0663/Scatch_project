@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "development") {
         let owners = await ownerModel.find();
         if (owners.length > 0) {
             return res
-                .send(503)
+                .status(503)
                 .send("you dont have permission to create an owner");
         }
 
