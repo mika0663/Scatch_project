@@ -19,9 +19,6 @@ app.use("/products",productsRouter);
 
 
 
-app.get("/",(req,res) => { 
-    res.send("hry");
-});
 
 
 app.listen(3000);
