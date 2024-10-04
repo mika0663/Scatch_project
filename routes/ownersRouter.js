@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === "development") {
         });
         res.status(201).send(createduser);
 
-    })
+    });
 }
 
 
